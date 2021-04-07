@@ -1,4 +1,4 @@
-import logging
+kimport logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -422,7 +422,7 @@ async def zee5_execute(bot, update):
 
                 await bot.edit_message_text(
                     text=Translation.AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS,
-                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Support Channel", url="https://t.me/Mai_bOTs")]]),
+                    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Support Channel", url="https://t.me/mrqueenlk_bots")]]),
                     chat_id=update.message.chat.id,
                     message_id=update.message.message_id,
                     disable_web_page_preview=True
